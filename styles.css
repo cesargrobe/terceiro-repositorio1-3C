@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --cor-principal: #262597;
+    --cor1: #6c6091;
+    --cor2: #f7ebff;
+    --cor3: #68baa6;
+    --preto: #000000;
+    --branco: #FFFFFF;
+}
+
+body {
+    font-size: 1rem;
+    font-family: 'Montserrat'; /*o nome da sua fonte*/
+}
