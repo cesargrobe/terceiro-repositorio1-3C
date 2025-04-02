@@ -7,12 +7,47 @@
     --cor3: #68baa6;
     --preto: #000000;
     --branco: #FFFFFF;
+    --laranja-claro: #FF862A;
 }
 
 body {
     font-size: 1rem;
     font-family: 'Montserrat'; /*o nome da sua fonte*/
 }
+
+section {
+    padding-bottom: 5rem;
+}
+
+.display-4 {
+    text-shadow: -5px 5px var(--laranja-claro);
+}
+
+#tropicalia {
+    position: relative;
+    padding-top: 5rem;
+    margin-top: 3rem;
+    background: var(--cor2);
+    background-size: 180px 180px; /* Ajuste o tamanho conforme necessário*/
+}
+
+#tropicalia .container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index: 1; /* Garante que o conteúdo fica acima das imagens de backgronde se houverem */
+}
+
+
+
+
+
+
+
+
+
+
 
 #contato {
     background: var(--cor-principal);
